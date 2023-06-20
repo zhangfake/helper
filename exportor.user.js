@@ -114,7 +114,7 @@ layui.use(function(){
   const laydate = layui.laydate;
   const form = layui.form;
 
-  let config = JSON.parse(GM_getValue('config', '{}'))
+  let config = JSON.parse(GM_getValue('config', '{"users":"","end_time":""}'))
   const startDownloadThread = async field => {
     // 存储当前数据
     config = field
