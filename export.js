@@ -5,7 +5,7 @@
 // @grant       GM_xmlhttpRequest
 // @grant       GM_setValue
 // @grant       GM_getValue
-// @version     1.0
+// @version     1.1
 // @author      -
 // @description 2023/6/19 18:18:00
 // @run-at      document-idle
