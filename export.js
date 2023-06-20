@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        exportor
-// @namespace   Violentmonkey Scripts
+// @namespace   zhangfake helper
 // @match       *://crm-taobao.huanleguang.com/*
 // @grant       GM_xmlhttpRequest
 // @grant       GM_setValue
