@@ -11,6 +11,7 @@
 // @run-at      document-idle
 // @require     https://unpkg.com/layui@2.8.7/dist/layui.js
 // @require     https://unpkg.com/xlsx/dist/xlsx.full.min.js
+// @downloadURL https://raw.githubusercontent.com/zhangfake/helper/main/exportor.js
 // ==/UserScript==
 
 const styleSheet = document.createElement('link');
