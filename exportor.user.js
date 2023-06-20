@@ -190,7 +190,7 @@ layui.use(function(){
                   TRADE_FINISHED: '需要评价',
                   TRADE_PARTLY_REFUND: '部分退款',
                   TRADE_CLOSED: '已退款',
-              }[item.trade_info.orders_status] || '',"订单ID": item.trade_info.tid || '',"预售/订单金额": item.trade_info.payment || '',"订单时间":item.trade_info.created_time || '',
+              }[item.trade_info.orders_status] || '',"订单ID": (item.trade_info.tid || '')+"\t","预售/订单金额": item.trade_info.payment || '',"订单时间":item.trade_info.created_time || '',
                "详细数据":item.params ? Object.keys(item.params).map((t=>`${t}: ${item.params[t]}`)).join("\r\n") : ""}
     })
 
